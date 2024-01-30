@@ -17,9 +17,10 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto Condensed","Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: normal;
   background-color: #fff;
   color: #222;
 }
@@ -103,6 +104,7 @@ select:-webkit-autofill:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 24px;
   background-image: url(../img/left-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,8 +132,10 @@ only screen and (                min-resolution: 2dppx) {
 .hero-heading {
   margin-top: 0;
   margin-bottom: 24px;
+  font-family: "Bebas Neue", "Roboto Condensed","Arial",sans-serif;
   text-transform: uppercase;
   font-size: 24px;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 2px;
   color: #fff;
@@ -141,9 +145,17 @@ only screen and (                min-resolution: 2dppx) {
   display: inline-block;
   background-color: #1E90FF;
   color: #fff;
+  font-family: "Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
+  line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.hero-link:hover{
+  background-color: rgba(30, 144, 255, 0.80);
+}
+.hero-link:active{
+  background-color: rgba(30, 144, 255, 0.60);
 }
 
 .hero-link-inner {
