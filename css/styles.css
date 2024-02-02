@@ -289,6 +289,13 @@ only screen and (                min-resolution: 2dppx) {
   display: inline-block;
   text-decoration: none;
 }
+.button-link:hover{
+  opacity: 0.8;
+}
+
+.button-link:active{
+  opacity: 0.6;
+}
 
 .button {
   border: none;
