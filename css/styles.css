@@ -175,3 +175,133 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .hero-link-text {}
+
+
+/* RIGHT SIDE */
+
+.latest-videos-content{
+  padding: 54px 54px 298px 54px;
+}
+
+.latest-videos-heading {
+
+}
+
+.latest-videos-heading-text {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.latest-videos-heading-hr {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #999;
+}
+
+.latest-videos-list-link{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.latest-videos-list {
+  padding: 0;
+}
+
+.latest-videos-item {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.latest-videos-item-img {
+  display: block;
+  border-radius: 4px;
+  width: 160px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.latest-videos-item-source {
+  max-width: 307px;
+  width: 100%;
+  padding: 16px;
+}
+
+.latest-videos-item-source-heading {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.latest-videos-item-source-time-view {
+  display: flex;
+}
+
+.latest-videos-item-source-time {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 24px;
+}
+
+.latest-videos-item-source-time-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.latest-videos-item-source-time-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  color: #888;
+}
+
+.latest-videos-item-source-view {
+  display: flex;
+  align-items: flex-start;
+}
+
+.latest-videos-item-source-view-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.latest-videos-item-source-view-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  color: #888;
+}
+
+.button-link{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  width: 492px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  padding: 12px 207px;
+  border-radius: 4px;
+  background-color: #1E90FF;
+  color: #fff;
+  letter-spacing: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
